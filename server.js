@@ -49,28 +49,28 @@ const start = () => {
                     viewAllEmployees();
                     break;
                 case "View all roles":
-                    viewAllEmployees();
+                    viewAllRole();
                     break;
                 case "View all departments":
-                    viewAllEmployees();
+                    viewAllDepts();
                     break;
                 case "Add employee":
-                    viewAllEmployees();
+                    addEmployee();
                     break;
-                case "VAdd role":
-                    viewAllEmployees();
+                case "Add role":
+                    addRole();
                     break;
                 case "View all roles":
-                    viewAllEmployees();
+                    viewAllRoles();
                     break;
                 case "Add departmen":
-                    viewAllEmployees();
+                    addDept();
                     break;
                 case "Remove employee":
-                    viewAllEmployees();
+                    removeEmployee();
                     break;
                 case "Update employee role":
-                    viewAllEmployees();
+                    updateEmployee();
                     break;
                 case "Exit":
                     process.exit(-1)
